@@ -7,7 +7,7 @@ This repository contains a comprehensive framework for **electricity spot price 
 
 | File                             | Description |
 |----------------------------------|-------------|
-| `All_methods_withoutjump.ipynb`  | Main notebook implementing all prediction models (Random Forest, Dense Neural Network, LSTM) on cleaned data without jump events. |
+| `All_methods_withoutjump.ipynb`  | Main notebook implementing all prediction models (Random Forest, Deep Neural Network, LSTM) on cleaned data without jump events. |
 | `jumps.ipynb`                    | Jump detection and exclusion notebook to filter out high-volatility days for robustness evaluation. |
 | `Statistics.ipynb`               | Final notebook for computing descriptive statistics (mean, std, skewness, kurtosis, etc.) and generating distribution plots per hub. |
 | `Indiana.xlsx`                   | Subset of the dataset focusing on the Indiana hub, used for testing and comparison. |
@@ -19,7 +19,7 @@ This repository contains a comprehensive framework for **electricity spot price 
 ## 📌 Features
 
 - **Time-based feature engineering:** Creation of lagged features and rolling averages.
-- **Manual hyperparameter tuning:** Detailed tuning of Random Forest, Dense Neural Networks, and LSTM architectures.
+- **Manual hyperparameter tuning:** Detailed tuning of Random Forest, Deep Neural Networks, and LSTM architectures.
 - **Statistical analysis:** Computation and visualization of price distribution statistics for each electricity hub.
 - **Model evaluation:** Performance assessment using Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 - **Visualization:** Comprehensive visualizations of data distributions, error metrics, and hyperparameter sensitivity.
